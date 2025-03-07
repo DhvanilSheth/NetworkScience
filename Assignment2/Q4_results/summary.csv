@@ -1,0 +1,4 @@
+Networks,Nodes,Edges,Random Attack Critical f,Targeted Attack Critical f
+Random,1000,2044,>0.5,>0.5
+Scale-Free,1000,1996,>0.5,>0.5
+Real-World,1000,2991,>0.5,>0.5
