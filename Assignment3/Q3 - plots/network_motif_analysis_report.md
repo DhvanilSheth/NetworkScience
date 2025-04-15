@@ -3,22 +3,35 @@
     
     ## Network Statistics
     - Network type: Directed graph
-    - Number of nodes: 3697
-    - Number of edges: 11290
-    - Network density: 0.000826
+    - Number of nodes: 312
+    - Number of edges: 817
+    - Network density: 0.008420
     
     ## Subgraph Analysis
-    - Number of unique 3-node connected subgraph patterns: 13
-    - Total subgraphs observed in the network: 0
-    - Number of statistically significant motifs (Z > 2.0): 0
-    - Number of statistically significant anti-motifs (Z < -2.0): 0
+    - Number of unique 3-node connected subgraph patterns: 5
+    - Total subgraphs observed in the network: 4783
+    - Number of statistically significant motifs (Z > 2.0): 2
+    - Number of statistically significant anti-motifs (Z < -2.0): 1
     
     ## Top Motifs (Over-represented Subgraphs)
-        No statistically significant motifs found.
-
+    
+    1. Pattern ID 4:
+       - Z-score: 10.61
+       - Observed count: 43 (vs. expected 4.10)
+       - Ratio: 10.49x more frequent than expected by chance
+            
+    2. Pattern ID 3:
+       - Z-score: 4.57
+       - Observed count: 169 (vs. expected 59.60)
+       - Ratio: 2.84x more frequent than expected by chance
+            
     ## Top Anti-Motifs (Under-represented Subgraphs)
-        No statistically significant anti-motifs found.
-
+    
+    1. Pattern ID 0:
+       - Z-score: -4.83
+       - Observed count: 1582 (vs. expected 2082.90)
+       - Ratio: 0.76x less frequent than expected by chance
+            
     ## Conclusions
     
     1. **Structural Organization**: The network shows clear evidence of non-random organization at the local level. 
