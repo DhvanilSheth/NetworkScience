@@ -147,7 +147,9 @@ if page == "Home":
             
         elif demo_option == "Political Blogs":
             try:
-                G = nx.read_gml("https://raw.githubusercontent.com/networkx/networkx/master/examples/graph/polblogs.gml", label='id')
+                polblogs_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                          "data", "external", "polblogs.gml")
+                G = nx.read_gml(polblogs_path)
                 G = G.to_undirected()  # Convert to undirected for community detection
                 G = data_utils.largest_connected_component(G)
                 st.session_state.graph = G

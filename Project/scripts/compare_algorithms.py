@@ -16,8 +16,7 @@ import sys
 # Add the src directory to the path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from enhanced_community_detection import EnhancedCommunityDetection
-import data_utils
+from src.enhanced_community_detection import EnhancedCommunityDetection
 import community as community_louvain  # python-louvain package
 
 
